@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+  --white: #f9fffd;
+
+  --gray-500: #666e75;
+
+  --green-400: #3fd29a;
+  --green-500: #23b882;
+  --green-700: #127758;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+body {
+  background-color: var(--white);
+}
